@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-max-50: #f1f3ff;
+  --color-max-100: #e3e7ff;
+  --color-max-500: #5b5bf7;
+  --color-max-600: #4a45e6;
+  --color-max-700: #3c35c4;
+  --color-chat-bg: #eef1f6;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background: #f5f6fa;
+  color: #1f2330;
+}
